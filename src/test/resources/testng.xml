@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<suite name="Knorrium.info - Wordpress Demo" verbose="10">
+<suite name="Amazon Test Suite" verbose="10">
  
   <test name="Amazon Test">
     <classes>
