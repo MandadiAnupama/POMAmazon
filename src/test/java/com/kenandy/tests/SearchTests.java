@@ -11,7 +11,7 @@ public class SearchTests extends BaseTest {
 
 	private static Logger LOG = Logger.getLogger(SearchTests.class);
 	
-	@Test
+	@Test(description = "Test to verfiy iPhone 6 SearchResults & Ratings")
 	public void testAmazonSearch() {
 		LOG.info("--- Entering testAmazonSearch Test ---");
 		HomePage.search("iPhone 6");

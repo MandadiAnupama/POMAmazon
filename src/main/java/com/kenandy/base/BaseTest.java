@@ -42,7 +42,9 @@ public class BaseTest {
 	
 	@AfterTest
 	public void tearDown() {
+		LOG.info("--- Entering AfterTest Method ---");
 		driver.quit();
+		LOG.info("--- Exiting AfterTest Method ---");
 	}
 
 }
